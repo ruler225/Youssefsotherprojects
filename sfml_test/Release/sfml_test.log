@@ -1,0 +1,17 @@
+﻿Build started 19/02/2015 12:59:17 PM.
+     1>Project "C:\Localfiles\Documents\DESKTOP\sfml_test\sfml_test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\sfml_test.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         sfml_test.vcxproj -> C:\Localfiles\Documents\DESKTOP\sfml_test\Release\sfml_test.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\sfml_test.unsuccessfulbuild".
+         Touching "Release\sfml_test.lastbuildstate".
+     1>Done Building Project "C:\Localfiles\Documents\DESKTOP\sfml_test\sfml_test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23

@@ -1,0 +1,121 @@
+﻿Build started 8/24/2015 1:24:38 PM.
+     1>Project "C:\Users\Youssef\Documents\C++\Sfml stuff\Sfml stuff.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Youssef\Documents\C++\Sfml stuff\Debug\Sfml stuff.exe" /INCREMENTAL:NO /NOLOGO jpeg.lib freetype.lib opengl32.lib glew.lib "sfml-window-s-d.lib" winmm.lib "sfml-system-s-d.lib" "sfml-graphics-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Youssef\Documents\C++\Sfml stuff\Debug\Sfml stuff.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Youssef\Documents\C++\Sfml stuff\Debug\Sfml stuff.lib" /MACHINE:X86 Debug\Source.obj
+     1>Source.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>sfml-window-s-d.lib(VideoMode.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(VideoModeImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(GlContext.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(WindowImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(JoystickManager.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(SensorManager.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(Joystick.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-system-s-d.lib(String.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-system-s-d.lib(ThreadLocal.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(Transform.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(View.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(Color.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>sfml-graphics-s-d.lib(TextureSaver.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in Source.obj
+     1>libucrtd.lib(hypot.obj) : error LNK2005: _hypot already defined in sfml-window-s-d.lib(VideoMode.obj)
+     1>sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2019: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z) referenced in function "public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &&)" (??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z)
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-window-s-d.lib(SensorManager.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+     1>sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-window-s-d.lib(SensorManager.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)
+     1>sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2019: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z) referenced in function "public: virtual bool __thiscall std::error_category::equivalent(class std::error_code const &,int)const " (?equivalent@error_category@std@@UBE_NABVerror_code@2@H@Z)
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-window-s-d.lib(SensorManager.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-window-s-d.lib(SensorManager.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)
+     1>sfml-graphics-s-d.lib(GLExtensions.obj) : error LNK2019: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z) referenced in function "void __cdecl `dynamic initializer for 'public: static class std::_Iostream_error_category std::_Error_objects<int>::_Iostream_object''(void)" (??__E?_Iostream_object@?$_Error_objects@H@std@@2V_Iostream_error_category@2@A@@YAXXZ)
+     1>sfml-graphics-s-d.lib(ImageLoader.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(TextureSaver.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(Image.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(Shader.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-system-s-d.lib(String.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(RenderWindow.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(SensorManager.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(WindowImplWin32.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(Joystick.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(Window.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(WindowImpl.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(WglContext.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(JoystickManager.obj) : error LNK2001: unresolved external symbol "char const * __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAPBDH@Z)
+     1>sfml-window-s-d.lib(JoystickImpl.obj) : error LNK2019: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z) referenced in function "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPADPBDPADABU_Cvtvec@@@Z)
+     1>sfml-graphics-s-d.lib(RenderTarget.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(GLCheck.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-graphics-s-d.lib(Texture.obj) : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)
+     1>sfml-system-s-d.lib(Err.obj) : error LNK2019: unresolved external symbol ___iob_func referenced in function "private: virtual int __thiscall `anonymous namespace'::DefaultErrStreamBuf::sync(void)" (?sync@DefaultErrStreamBuf@?A0x8f7eadb4@@EAEHXZ)
+     1>jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol ___iob_func
+     1>jpeg.lib(jerror.obj) : error LNK2019: unresolved external symbol _sprintf referenced in function _format_message
+     1>jpeg.lib(jmemmgr.obj) : error LNK2019: unresolved external symbol _sscanf referenced in function _jinit_memory_mgr
+     1>C:\Users\Youssef\Documents\C++\Sfml stuff\Debug\Sfml stuff.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "C:\Users\Youssef\Documents\C++\Sfml stuff\Sfml stuff.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.81
