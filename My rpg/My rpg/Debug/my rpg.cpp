@@ -3482,12 +3482,13 @@ void tutorial() {
 
 
 int main() {
-	cout << hero.health / 0;
 	system("title COMPUTERDOOM v1.0 beta 6");
 	int alert; 
 	alert = MessageBox(NULL, "This will be the last iteration of COMPUTERDOOM betas on version 1.0. Version 1.0 will not be happening due to an exciting change. See \"FAQs\" in the main menu for more details.",
 	"No more COMPUTERDOOM v1.0", MB_ICONASTERISK);
 	
+	MessageBox(NULL, "Sorry, I've given up on this game forever. Enjoy the memories from my Grade 8/Grade 9 coding times! :)", "No more new versions of COMPUTERDOOM", MB_ICONINFORMATION);
+
 	if (alert == IDNO) 
 	exit(0);
 	
